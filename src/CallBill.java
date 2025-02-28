@@ -32,5 +32,6 @@ Từ phút gọi 401 đến phút cuối giá cước là 40 đ/phút.
         }
 
         System.out.println("Tổng tiền điện thoại la: " + bill);
+        sc.close();// Đóng Scanner để tránh rò rỉ tài nguyên
     }
 }

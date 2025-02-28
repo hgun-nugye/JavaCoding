@@ -34,5 +34,6 @@ public class Array {
         {
             System.out.print(i +" ");
         }
+        sc.close();// Đóng Scanner để tránh rò rỉ tài nguyên
     }
 }

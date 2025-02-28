@@ -44,6 +44,6 @@ public class JayKen {
                 game=false;
             }
         }
+        sc.close();// Đóng Scanner để tránh rò rỉ tài nguyên
     }
-
 }

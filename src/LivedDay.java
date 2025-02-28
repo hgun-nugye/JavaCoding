@@ -80,5 +80,6 @@ public class LivedDay {
         }
 
         System.out.printf("You have lived about %d days", livedDay);
+        sc.close();// Đóng Scanner để tránh rò rỉ tài nguyên
     }
 }

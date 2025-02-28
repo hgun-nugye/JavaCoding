@@ -17,5 +17,6 @@ public class Tong_1divn {
         }
 
         System.out.println("Tong cac gia tri 1/n vua nhap la: " + sum);
+        sc.close();// Đóng Scanner để tránh rò rỉ tài nguyên
     }
 }

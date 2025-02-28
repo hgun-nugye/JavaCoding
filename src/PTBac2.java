@@ -46,5 +46,6 @@ public class PTBac2 {
             else
                 System.out.println("Phương trình vô nghiệm.");
         }
+        sc.close();// Đóng Scanner để tránh rò rỉ tài nguyên
     }
 }

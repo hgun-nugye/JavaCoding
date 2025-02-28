@@ -28,6 +28,8 @@ public class Avg_Max_MinArr {
             min=Math.min(min, i);
         }
         System.out.println("Giá trị lớn nhất của dãy là "+ min);
+
+        sc.close();// Đóng Scanner để tránh rò rỉ tài nguyên
     }
 }
 
